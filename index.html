@@ -3,22 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Scrum Master portfolio featuring agile delivery experience and an evolving AI automation lab.">
+  <meta name="description" content="Alba Gómez Castaño — AI Automation, Atlassian Rovo agents and Agile transformation.">
   <meta name="theme-color" content="#080c18">
-  <title>Your Name | Scrum Master & AI Explorer</title>
+  <title>Alba Gómez Castaño | AI Automation & Agile Transformation</title>
   <style>
     :root{color-scheme:dark;--bg:#080c18;--panel:#11192b;--border:#29334a;--text:#eef2ff;--muted:#a0abc5;--accent:#a998ff;--mint:#6cf1cf}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#252152 0,transparent 37%),var(--bg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);line-height:1.6}a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:2px solid var(--mint);outline-offset:4px}.wrap{width:min(1120px,calc(100% - 42px));margin:auto}header{position:sticky;top:0;z-index:10;background:#080c18e8;backdrop-filter:blur(16px);border-bottom:1px solid #263047}nav{display:flex;justify-content:space-between;align-items:center;gap:14px;min-height:72px}.logo{font-size:1.07rem;font-weight:850;letter-spacing:-.05em}.logo b{color:var(--mint)}.navlinks{display:flex;gap:24px;font-size:.9rem;color:var(--muted)}.navlinks a:hover,a.inline:hover{color:var(--mint)}.status{font-size:.75rem;color:var(--mint);border:1px solid #316f6a;background:#13332f;padding:7px 11px;border-radius:50px;white-space:nowrap}.hero{padding:110px 0 75px;position:relative}.eyebrow,.kicker{text-transform:uppercase;letter-spacing:.17em;font-size:.72rem;font-weight:800;color:var(--mint)}h1{font-size:clamp(3rem,8vw,6.8rem);letter-spacing:-.075em;line-height:1.05;margin:17px 0 22px;max-width:900px}h1 em{font-style:normal;background:linear-gradient(100deg,#d6ccff,#9e9aff 50%,#6cf1cf);background-clip:text;color:transparent}.lead{max-width:720px;color:#b9c2d6;font-size:clamp(1.04rem,2vw,1.3rem);line-height:1.75}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}.button{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:12px;font-weight:750;font-size:.9rem;border:1px solid #58617d;transition:transform .2s,background .2s}.button:hover{transform:translateY(-3px)}.primary{background:var(--mint);color:#071b1c;border-color:var(--mint)}.secondary{background:#1a2338}.mini{margin-top:70px;display:flex;gap:12px;flex-wrap:wrap}.chip{border:1px solid var(--border);background:#141e31;border-radius:100px;padding:9px 15px;font-size:.81rem;color:#cad2e8}section{padding:55px 0;scroll-margin-top:85px}.section-head{margin-bottom:26px}h2{font-size:clamp(1.8rem,4vw,2.8rem);letter-spacing:-.05em;line-height:1.2;margin:8px 0}p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}.card{grid-column:span 6;padding:30px;border:1px solid var(--border);border-radius:20px;background:linear-gradient(140deg,#171e34,#101827);min-height:215px}.card.wide{grid-column:span 8}.card.narrow{grid-column:span 4}.card h3{font-size:1.35rem;letter-spacing:-.035em;margin:11px 0}.card p{margin-bottom:0}.card .num{display:inline-flex;color:var(--mint);font-weight:800;font-size:.8rem;letter-spacing:.08em}.card.feature{background:linear-gradient(135deg,#30265d,#14233c)}.card .tag{display:inline-flex;padding:5px 9px;border:1px solid #56557e;border-radius:6px;color:#ccc4ff;font-size:.72rem}.list{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.list span{background:#23304a;border:1px solid #34435f;padding:6px 10px;border-radius:7px;font-size:.8rem;color:#dce3f8}.project{display:flex;flex-direction:column;justify-content:space-between}.project .bottom{margin-top:35px;color:var(--mint);font-size:.88rem;font-weight:700}.timeline{border-left:2px solid #4c4b85;padding-left:24px;margin-left:8px}.timeline h3{margin-bottom:4px}.timeline p{margin-top:4px}.footerbox{border:1px solid #434877;background:linear-gradient(130deg,#282351,#11202e);border-radius:24px;padding:clamp(24px,5vw,54px)}.footerbox h2{max-width:680px}footer{padding:32px 0 48px;color:#8491aa;font-size:.81rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.hint{color:#ffdfa9;font-size:.8rem}.glow{height:4px;width:56px;border-radius:10px;background:linear-gradient(90deg,var(--accent),var(--mint));margin-bottom:21px}@media(max-width:760px){.navlinks{gap:12px;font-size:.77rem}.status{display:none}.hero{padding:74px 0 40px}.mini{margin-top:45px}.card,.card.wide,.card.narrow{grid-column:span 12}.card{min-height:auto;padding:24px}section{padding:40px 0}nav{min-height:64px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+  
+    /* Small visual enhancements */
+    .hero::after{content:"";position:absolute;right:3%;top:75px;width:min(32vw,340px);height:min(32vw,340px);background:radial-gradient(circle,#a998ff32,transparent 70%);border-radius:50%;pointer-events:none;filter:blur(12px)}
+    .card{transition:transform .25s,border-color .25s,box-shadow .25s}.card:hover{transform:translateY(-5px);border-color:#716da4;box-shadow:0 14px 35px #00000025}
+    .project .bottom{border-top:1px solid #344056;padding-top:15px}
+    .project-filters{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 24px}.filter{font:inherit;font-size:.83rem;color:#cbd4e9;background:#152039;border:1px solid #35445f;border-radius:99px;padding:9px 15px;cursor:pointer}.filter:hover,.filter.active{background:#274a4a;border-color:var(--mint);color:#dcfff6}.filter:focus-visible{outline:2px solid var(--mint);outline-offset:3px}.project .bottom a{display:inline-block;color:var(--mint);text-decoration:underline;text-underline-offset:3px;margin-right:16px}.project .bottom a:hover{color:#fff}.project .status-note{font-size:.78rem;color:#b7c3dd;margin-top:12px}.featured-note{font-size:.82rem;margin:20px 0 0;color:#aab6cf}
+    @media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
   </style>
 </head>
 <body>
-  <header><nav class="wrap" aria-label="Main navigation"><a class="logo" href="#top">YOUR NAME<b>.</b></a><div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">AI Lab</a><a href="#contact">Contact</a></div><span class="status">● Open to opportunities</span></nav></header>
+  <header><nav class="wrap" aria-label="Main navigation"><a class="logo" href="#top"><span data-profile="name">YOUR NAME</span><b>.</b></a><div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">AI Lab</a><a href="#contact">Contact</a></div><span class="status">● Open to opportunities</span></nav></header>
   <main id="top">
-    <div class="wrap hero"><div class="glow"></div><div class="eyebrow">SCRUM MASTER · AGILE DELIVERY · AI EXPLORER</div><h1>Better teams.<br><em>Smarter ways<br>of working.</em></h1><p class="lead">Hi, I'm <strong style="color:white">[YOUR NAME]</strong>. I help teams collaborate, adapt and deliver value. I'm expanding my toolkit through hands-on AI agents and workflow automation projects.</p><div class="actions"><a class="button primary" href="#projects">Explore my AI Lab ↗</a><a class="button secondary" href="#about">Get to know me ↓</a></div><div class="mini"><span class="chip">✦ Agile mindset</span><span class="chip">✦ Continuous improvement</span><span class="chip">✦ Human-centered collaboration</span></div></div>
-    <section id="about" class="wrap"><div class="section-head"><div class="kicker">01 / INTRODUCTION</div><h2>More than ceremonies.<br>It's about impact.</h2></div><div class="grid"><article class="card wide feature"><span class="num">ABOUT ME</span><h3>I believe great delivery starts with people.</h3><p>[REPLACE THIS TEXT] Share your professional story in 3–5 sentences. What motivates you as a Scrum Master? What type of teams have you worked with? What makes you different?</p></article><article class="card narrow"><span class="num">MY FOCUS</span><h3>People × Process × Technology</h3><p>Combining agile facilitation and practical experimentation with AI tools.</p></article></div></section>
-    <section id="experience" class="wrap"><div class="section-head"><div class="kicker">02 / EXPERIENCE</div><h2>What I bring to the table.</h2></div><div class="grid"><article class="card"><span class="num">AGILE DELIVERY</span><h3>Helping teams move forward</h3><p>Facilitation, alignment and continuous improvement. Add your own examples of outcomes here.</p><div class="list"><span>Scrum</span><span>Facilitation</span><span>Retrospectives</span></div></article><article class="card"><span class="num">TEAM ENABLEMENT</span><h3>Creating space for collaboration</h3><p>Supporting clear priorities, transparency and better ways of working. Customize this based on your real experience.</p><div class="list"><span>Stakeholders</span><span>Coaching</span><span>Delivery</span></div></article></div><p class="hint">✎ This is a starter template. Replace these descriptions with your real achievements before sharing with recruiters.</p></section>
-    <section id="projects" class="wrap"><div class="section-head"><div class="kicker">03 / EXPERIMENTS & PROJECTS</div><h2>Welcome to my AI Lab<span style="color:var(--mint)">.</span></h2><p>A growing space to document what I'm learning and building. Project ideas below are not completed projects.</p></div><div class="grid"><article class="card project"><div><span class="tag">PLANNED PROJECT · 01</span><h3>AI Job Discovery Agent</h3><p>Explore ways to collect and organize relevant remote career opportunities.</p></div><div class="bottom">Idea · Not built yet</div></article><article class="card project"><div><span class="tag">PLANNED PROJECT · 02</span><h3>AI Role Matching Agent</h3><p>Experiment with comparing job requirements against a skills profile.</p></div><div class="bottom">Idea · Not built yet</div></article><article class="card project"><div><span class="tag">PLANNED PROJECT · 03</span><h3>Interview Prep Assistant</h3><p>Practice interview scenarios and build structured preparation workflows.</p></div><div class="bottom">Idea · Not built yet</div></article><article class="card project"><div><span class="tag">PLANNED PROJECT · 04</span><h3>Agile Automation Experiments</h3><p>Prototype simple workflows that could reduce repetitive coordination work.</p></div><div class="bottom">Idea · Not built yet</div></article></div></section>
-    <section id="contact" class="wrap"><div class="footerbox"><div class="kicker">04 / LET'S CONNECT</div><h2>Let's build better ways of working together.</h2><p>Interested in connecting about Scrum, agile delivery, remote opportunities or practical AI?</p><div class="actions"><a class="button primary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="button secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><p class="hint">✎ Replace these general links with your own public profiles before sharing.</p></div></section>
-  </main><footer class="wrap"><span>© <span id="year">2026</span> [YOUR NAME]. Built with curiosity and care.</span><span>Scrum Master · AI Explorer</span></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+    <div class="wrap hero"><div class="glow"></div><div class="eyebrow">AI AUTOMATION · ATLASSIAN ROVO · AGILE TRANSFORMATION</div><h1>Human-centered AI.<br><em>Smarter workflows.<br>Real business impact.</em></h1><p class="lead">Hi, I'm <strong style="color:white"><span data-profile="name">YOUR NAME</span></strong>. <span data-profile="headline">I help teams collaborate, adapt and deliver value. I’m exploring how AI can improve our ways of working.</span></p><div class="actions"><a class="button primary" href="#projects">Explore my AI Lab ↗</a><a class="button secondary" href="#about">Get to know me ↓</a></div><div class="mini"><span class="chip">✦ PMP · PSM I · PSPO I</span><span class="chip">✦ Atlassian Rovo agents</span><span class="chip">✦ Jira & Confluence</span></div></div>
+    <section id="about" class="wrap"><div class="section-head"><div class="kicker">01 / INTRODUCTION</div><h2>Where Agile delivery<br>meets practical AI.</h2></div><div class="grid"><article class="card wide feature"><span class="num">ABOUT ME</span><h3>Technology works best when it solves real problems.</h3><p><span data-profile="about">Add a short introduction about your real professional experience, the teams you have supported and what motivates you.</span></p></article><article class="card narrow"><span class="num">MY FOCUS</span><h3>People × Process × Technology</h3><p>Combining Agile leadership, product thinking and hands-on AI experimentation to solve meaningful workflow problems.</p></article></div></section>
+    <section id="experience" class="wrap"><div class="section-head"><div class="kicker">02 / EXPERIENCE & IMPACT</div><h2>From product thinking to Agile leadership.</h2><p>My experience spans product management, Atlassian administration and Agile delivery.</p></div><div class="grid">
+    <article class="card wide feature"><span class="num">MEASURABLE IMPACT</span><h3>15% less administrative work</h3><p><span data-profile="achievement"></span></p><div class="list"><span>AI Workflows</span><span>User Stories</span><span>Backlog Quality</span></div></article>
+    <article class="card narrow"><span class="num">CERTIFICATIONS</span><h3>Learning with purpose</h3><p>PMP (2023) · PSPO I (2022) · PSM I (2021)</p><div class="list"><span>English C1</span><span>Spanish Native</span></div></article>
+    <article class="card"><span class="num">SEP 2022 – PRESENT</span><h3>Scrum Master Lead</h3><p><strong>AzertiumIT</strong> · Removing blockers, improving delivery flow using Lead/Cycle Time, supporting Agile culture and aligning backlog priorities with business objectives.</p></article>
+    <article class="card"><span class="num">SEP 2020 – SEP 2022</span><h3>Atlassian Cloud Administrator / Scrum Master</h3><p><strong>PhoneHouse</strong> · Jira and Confluence administration, workflows, permissions, dashboards, platform integrations and cloud migration.</p></article>
+    <article class="card"><span class="num">JUN 2019 – SEP 2020</span><h3>Assistant Product Manager</h3><p><strong>Check24 Spain</strong> · Product benchmarking, data analysis, Backoffice backlog prioritization, functional testing and Confluence documentation.</p></article>
+    <article class="card"><span class="num">MY TOOLKIT</span><h3>Agile, product & technology</h3><p>Scrum · Kanban · Management 3.0 · OKRs · ADKAR · Jira · Confluence · Bitbucket · Aha! Roadmaps · Lead Time · Cycle Time.</p></article>
+    </div></section>
+    <section id="projects" class="wrap"><div class="section-head"><div class="kicker">03 / HANDS-ON AI & AUTOMATION</div><h2>Building in public: AI Lab<span style="color:var(--mint)">.</span></h2><p>Real experience, experiments in progress and future ideas — clearly labelled. Explore the details as each project is completed.</p></div>
+      <div class="project-filters" aria-label="Filter projects"><button type="button" class="filter active" data-filter="all" aria-pressed="true">All projects</button><button type="button" class="filter" data-filter="experience" aria-pressed="false">Experience</button><button type="button" class="filter" data-filter="progress" aria-pressed="false">In progress</button><button type="button" class="filter" data-filter="planned" aria-pressed="false">Planned</button><button type="button" class="filter" data-filter="completed" aria-pressed="false">Completed</button></div>
+      <div id="project-grid" class="grid" aria-live="polite"><p>Loading projects…</p></div>
+      <p class="featured-note">Code and demo links appear only when available. No private company code or credentials are published.</p>
+    </section>
+    <section id="contact" class="wrap"><div class="footerbox"><div class="kicker">04 / LET'S CONNECT</div><h2>Let's build better ways of working together.</h2><p>Interested in AI workflow automation, AI adoption, Agile transformation or cross-functional delivery? Let's connect.</p><div class="actions"><a class="button primary" id="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="button secondary" id="github-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></section>
+  </main><footer class="wrap"><span>© <span id="year">2026</span> <span data-profile="name">YOUR NAME</span>. Built with curiosity and care.</span><span>AI Automation · Agile Leadership</span></footer>
+  <script src="projects.js"></script>
+  <script>
+    // ===============================================================
+    // YOUR PROFILE: All details below are editable. Change only quoted text.
+    // PERFIL: CAMBIA SOLO EL TEXTO ENTRE COMILLAS.
+    // Never put passwords, private contact details or API keys here.
+    // ===============================================================
+    const profile = {
+      name: "Alba Gómez Castaño",
+      headline: "I combine Agile leadership, product thinking and hands-on experience with Atlassian Rovo agents to make AI useful for teams and business workflows.",
+      about: "I am transitioning toward AI automation and AI transformation roles, building on my experience as a Scrum Master Lead, Atlassian Cloud Administrator and product professional. I have worked with Atlassian Rovo agents in professional Agile workflows, and I am developing new agent prototypes in Visual Studio Code. My next learning goals include n8n, Make and Zapier. My strength is translating team and business problems into clear, practical improvement opportunities.",
+      achievement: "At AzertiumIT, I designed and deployed AI agents and automated workflows to standardize user stories and detect backlog anti-patterns, reducing administrative workload by 15%, according to my professional experience.",
+      linkedin: "https://www.linkedin.com/in/albagomezcastano",
+      github: "https://github.com/albagomezcastano"
+    };
+    // ===============================================================
+    // Do not edit below this line / No modifiques lo siguiente.
+    document.title = profile.name + " | AI Automation & Agile Transformation";
+    for (const element of document.querySelectorAll('[data-profile]')) {
+      element.textContent = profile[element.dataset.profile] || "";
+    }
+    for (const key of ["linkedin", "github"]) {
+      const el = document.getElementById(key + "-link");
+      const address = (profile[key] || "").trim();
+      if (/^https:\/\/[a-z0-9.-]+(?:\/|$)/i.test(address)) {
+        const host = new URL(address).hostname.toLowerCase();
+        if ((key === "linkedin" && (host === "linkedin.com" || host === "www.linkedin.com")) ||
+            (key === "github" && (host === "github.com" || host === "www.github.com"))) {
+          el.href = address;
+        } else { el.removeAttribute("href"); el.title = "Add your personal profile URL"; }
+      } else { el.removeAttribute("href"); el.title = "Add your personal profile URL"; }
+    }
+
+    // Las tarjetas se crean a partir de projects.js.
+    // Edita SOLO projects.js para añadir proyectos nuevos.
+    const projectGrid = document.getElementById('project-grid');
+    const labels = { experience:'PROFESSIONAL EXPERIENCE',progress:'IN PROGRESS',planned:'PLANNED',completed:'COMPLETED' };
+    const projects = Array.isArray(window.portfolioProjects) ? window.portfolioProjects : [];
+    function safeProjectLink(value) {
+      if (typeof value !== 'string' || !value.trim()) return null;
+      try { const u = new URL(value); return u.protocol === 'https:' ? u.href : null; }
+      catch { return null; }
+    }
+    function renderProjects(filter) {
+      projectGrid.replaceChildren();
+      if (!Array.isArray(window.portfolioProjects)) {
+        const error = document.createElement('p');
+        error.textContent = 'Projects could not be loaded. Check that projects.js is uploaded next to index.html.';
+        projectGrid.append(error);
+        return;
+      }
+      const filtered = projects.filter(p => filter === 'all' || p.status === filter);
+      if (!filtered.length) { const empty=document.createElement('p');empty.textContent='No projects in this category yet.';projectGrid.append(empty);return; }
+      for (const project of filtered) {
+        const card=document.createElement('article');card.className='card project';
+        const content=document.createElement('div');
+        const badge=document.createElement('span');badge.className='tag';badge.textContent=labels[project.status] || 'PROJECT';content.append(badge);
+        const title=document.createElement('h3');title.textContent=project.title || 'Untitled project';content.append(title);
+        const description=document.createElement('p');description.textContent=project.description || '';content.append(description);
+        if (Array.isArray(project.tools)) {const tags=document.createElement('div');tags.className='list';for(const tool of project.tools){const el=document.createElement('span');el.textContent=tool;tags.append(el);}content.append(tags);}
+        const bottom=document.createElement('div');bottom.className='bottom';
+        for(const [key,label] of [['github','View on GitHub ↗'],['demo','Live demo ↗']]) {const url=safeProjectLink(project[key]);if(url){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=label;bottom.append(a);}}
+        if(!bottom.children.length){const note=document.createElement('span');note.textContent=project.status==='experience'?'Private implementation · Public summary only':project.status==='planned'?'Not built yet':'Documentation coming soon';bottom.append(note);}
+        card.append(content,bottom);projectGrid.append(card);
+      }
+    }
+    for(const button of document.querySelectorAll('[data-filter]')){button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-pressed','false');});button.classList.add('active');button.setAttribute('aria-pressed','true');renderProjects(button.dataset.filter);});}
+    renderProjects('all');
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
